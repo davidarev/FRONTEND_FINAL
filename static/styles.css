@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.characters-card {
+    padding: 15px;
+    border: 3px;
+    background-color: white;
+}
+
+.characters-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.character-details {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 5px;
+}
+
+a{
+    color: inherit;
+}
+
+.header {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    display: grid;
+}
